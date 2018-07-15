@@ -1,0 +1,48 @@
+//key = c
+mdc 67
+mousemove 0,1200
+sleep 150
+keypress 32
+sleep 300
+keypress 81
+sleep 150
+keyrelease 32
+keyrelease 81
+sleep 200
+shoot
+sleep 200
+mousemove 0,-1200
+sleep 200
+keypress 85
+sleep 200
+mousepress 1
+sleep 200
+mousemove 800,0
+sleep 200
+mousemove 800,0
+sleep 200
+mousemove 800,0
+sleep 200
+mousemove 800,0
+mouserelease 1
+keyrelease 85
+sleep 50
+shoot
+sleep 150
+sleep 150
+keypress 32
+sleep 400
+keypress 75
+sleep 150
+keyrelease 32
+keyrelease 75
+sleep 150
+shoot
+end
+
+mdc 88
+vdc abc = 1
+mousepress abc
+sleep 500
+mouserelease abc
+end
